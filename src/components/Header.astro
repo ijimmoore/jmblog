@@ -1,0 +1,22 @@
+---
+import { Image } from 'astro:assets';
+---
+
+<header class="flex justify-between items-center px-24 py-12 max-sm:px-5 max_sm:py-10 mx-w-7xl w-full mx-auto">
+    <a href="/" class="flex items-center gap-x-4">
+    <Image 
+    src="/heartbeat.png"
+    width={60}
+    height={60}
+    alt="Hertbeat icon"
+    class="rounded-2xl aspect-thumbnail object-cover"
+    format="webp"
+    />
+    <p class="uppercase text-3xl text-zinc-900">blog</p>
+</a>
+<ul class="flex gap-x-8">
+    <li><a href="/" class="text-teal900 font-bold"></a>Home</li>
+    <li><a href="/about" class="text-teal900 font-bold"></a>About</li>
+    <li><a href="/blog" class="text-teal900 font-bold"></a>Blog</li>
+</ul>
+</header>
