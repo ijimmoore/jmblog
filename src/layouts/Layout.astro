@@ -4,14 +4,14 @@ import Footer from '../components/Footer.astro'
 
 interface Props {
 	title: string;
-	description?: string;
-	image: string
+	//description?: string;
+	//image: string
 }
 
 const { 
 	title = 'Rhythm Nation',
-	description = 'A community',
-	image = "/images/band.jpg" 
+	//description = 'A community',
+	//image = "/images/band.jpg" 
 	} = Astro.props;
 ---
 
@@ -28,6 +28,7 @@ const {
 
 	<body>
 		<Header class="min-h-screen grid grid-rows-[auto,1fr,auto]"></Header>
+
 		<slot />
 		<Footer></Footer>
 	</body>
