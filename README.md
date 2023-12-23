@@ -1,1 +1,1 @@
-Just playin
+Continuous learning
